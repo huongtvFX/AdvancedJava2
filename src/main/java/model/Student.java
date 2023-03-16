@@ -8,12 +8,12 @@ public class Student implements Comparable<Student> {
     private String address;
     private String phone;
     private String email;
-    private double point_GPA;
+    private float point_GPA;
 
     public Student() {
     }
 
-    public Student(String id, String full_name, int gender, String date_of_birth, String address, String phone, String email, double point_GPA) {
+    public Student(String id, String full_name, int gender, String date_of_birth, String address, String phone, String email, float point_GPA) {
         this.id = id;
         this.full_name = full_name;
         this.gender = gender;
@@ -80,11 +80,11 @@ public class Student implements Comparable<Student> {
         this.email = email;
     }
 
-    public double getPoint_GPA() {
+    public float getPoint_GPA() {
         return point_GPA;
     }
 
-    public void setPoint_GPA(double point_GPA) {
+    public void setPoint_GPA(float point_GPA) {
         this.point_GPA = point_GPA;
     }
 
